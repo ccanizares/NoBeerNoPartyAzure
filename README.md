@@ -21,7 +21,6 @@ No te pierdas la oportunidad de conocer en un taller 8 servicios de Azure en 45 
 -   Azure Functions
 -   Event Hub
 -   Service Bus
-
  
 Escenario
 =========
