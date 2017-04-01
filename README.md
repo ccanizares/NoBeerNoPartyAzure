@@ -12,6 +12,7 @@ Necesitas:
 -   NO es necesario saber programar, ni sería viable hacerlo en 45 min! Se trata de descargar las aplicaciones y configurar settings una vez creados servicios en Azure. 
 
 -   4 o 5 cafes en vena para estar a tope que tenemos poco tiempo y muchas piezas que conectar XD. Se puede realizar el taller en grupos de 2 o más personas, es incluso recomendable.
+
  
 Conocerás:
 
@@ -21,6 +22,7 @@ Conocerás:
 -   Azure Functions
 -   Event Hub
 -   Service Bus
+
  
 Escenario
 =========
@@ -60,7 +62,7 @@ Nuestra propuesta
 
 ###  
 
-![](https://github.com/ccanizares/NoBeerNoParty/assets/nobeernoparty.png)
+![](https://github.com/ccanizares/NoBeerNoParty/raw/master/assets/nobeernoparty.png)
 
 ### Azure Search
 
