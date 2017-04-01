@@ -58,6 +58,7 @@ Crear la infrastructura necesaria para dar soporte a este evento y conectar sus 
 -   Almacenar todas las transacciones para explotar esa información en un futuro mediante predicciones y analisis. 
 
 
+
 Nuestra propuesta
 -----------------
 
@@ -88,9 +89,9 @@ Soporta colas de mensajes, recibirá mensajes por parte del servicio de Stream An
 Este servicio tiene como objetivo procesar los mensajes de service bus, y actualizar los datos del índice de búsqueda del servicio Azure Search.
 
 ### DocumentDB 
-Será donde almacenemos toda aquella información que quiere disponer la organización al finalizar el evento para su futuro analisis. 
+Será donde almacenemos toda aquella información que quiere disponer la organización al finalizar el evento para su futuro analisis.
 
- 
+
 Go!
 ---
 
