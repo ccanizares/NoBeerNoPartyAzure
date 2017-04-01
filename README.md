@@ -64,39 +64,30 @@ Nuestra propuesta
 ![](https://github.com/ccanizares/NoBeerNoParty/raw/master/assets/nobeernoparty.png)
 
 ### Azure Search
-
 Permitirá a la web buscar modelos de cerveza entre los stands y tener información precisa en todo momento de los modelos mejor valorados, cantidad aproximada restante de cada modelo en los stands, etc. 
 
 
 ### Web App
-
 Conoceremos el servicio de aplicaciones escalables en la nube de Azure publicando la aplicación web desde Visual Studio.
  
 
 ### Event Hub
-
 Los cajeros enviarán información sobre cada compra, este servicio permite la ingesta de información codificada como stream. 
 
 [+ info](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send)
 
 
 ### Stream Analytics 
-
 Estará suscrito a los eventos de Event Hub y será el encagado de procesar y tranformar la información. Una parte la almacenerá en documentDb y otra la dejará en una cola. 
 
- 
-### Service Bus
 
+### Service Bus
 Soporta colas de mensajes, recibirá mensajes por parte del servicio de Stream Analytics (compras) y también recibe mensajes directamente desde la aplicación web (valoraciones)
 
- 
 ### Azure Functions
+Este servicio tiene como objetivo procesar los mensajes de service bus, y actualizar los datos del índice de búsqueda del servicio Azure Search.
 
-Este servicio tiene como objetivo procesar los mensajes de service bus, y actualizar los datos del índice de búsqueda del servicio Azure Search. 
-
- 
 ### DocumentDB 
-
 Será donde almacenemos toda aquella información que quiere disponer la organización al finalizar el evento para su futuro analisis. 
 
  
