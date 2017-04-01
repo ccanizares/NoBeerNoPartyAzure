@@ -78,7 +78,7 @@ Conoceremos el servicio de aplicaciones escalables en la nube de Azure publicand
 Los cajeros enviarán información sobre cada compra, este servicio permite la ingesta de información codificada como stream. 
 
 [+ info](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send)
- 
+
 
 ### Stream Analytics 
 
