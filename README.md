@@ -37,7 +37,7 @@ Punto de partida
 -   Todo asistente al evento debe haberse registrado previamente (también los fabricantes), esta información la tenemos disponible en un conjunto de datos. Al registrarse, el usuario recibe unas claves de acceso.   
 -   Disponen de una aplicación en las máquinas registradoras de cada stand que se encarga de registrar cada compra (usuario, modelo cerveza, fecha).
 
- 
+
 ¿Qué nos pide la organización?
 ------------------------------
 
