@@ -3,7 +3,7 @@ No beer, no party
 
 No te pierdas la oportunidad de conocer en un taller 8 servicios de Azure en 45 minutos. Te daré todas las piezas (aplicaciones) y conceptos. Se trata de crear tu infrastructura en Azure, conectar las piezas y disfrutar del experimento!
 
-Necesitas:
+### Necesitas:
 
 -   Visual Studio 2017 con asp.net core  
 
@@ -12,9 +12,8 @@ Necesitas:
 -   NO es necesario saber programar, ni sería viable hacerlo en 45 min! Se trata de descargar las aplicaciones y configurar settings una vez creados servicios en Azure. 
 
 -   4 o 5 cafes en vena para estar a tope que tenemos poco tiempo y muchas piezas que conectar XD. Se puede realizar el taller en grupos de 2 o más personas, es incluso recomendable.
-
  
-Conocerás:
+### Conocerás:
 
 -   Web Apps
 -   Azure Search
