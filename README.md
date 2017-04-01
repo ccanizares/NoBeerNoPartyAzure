@@ -41,7 +41,7 @@ Punto de partida
 ¿Qué nos pide la organización?
 ------------------------------
 
-Crear la infrastructura necesaria para dar soporte a este evento y conectar sus aplicaciones. Nos facilitan un fichero csv con la información del registro, la aplicación web y la aplicación de cajero para que podamos implementar allí lo que consideremos necesario.  
+Crear la infrastructura necesaria para dar soporte a este evento y conectar sus aplicaciones. Nos facilitan un fichero csv con la información del registro, la aplicación web y la aplicación de cajero para que podamos implementar allí lo que consideremos necesario.
  
 ### Cervezeros (Web)
 
@@ -60,8 +60,6 @@ Crear la infrastructura necesaria para dar soporte a este evento y conectar sus 
 
 Nuestra propuesta
 -----------------
-
-###  
 
 ![](https://github.com/ccanizares/NoBeerNoParty/raw/master/assets/nobeernoparty.png)
 
