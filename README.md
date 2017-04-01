@@ -27,6 +27,7 @@ Escenario
 =========
 
 Estamos en visperas de la celebración de la mayor feria de la cerveza en la ciudad de Barcelona es un evento anual al que se prevee que asistan unas 10.000 personas según el sistema de registro. La organización dispone de un recinto con 100 stands, en cada uno pueden conectarse 10 barriles. 
+
 Todos los artesanos y hipsters de la cerveza quieren dar a conocer su marca y sólo les está permitido tener un barril en cada stand. No todos los fabricantes tendrán stock para paliar la sed de tanto cervezero a lo largo de las 24 horas que dura el evento, por tanto si un fabricante renuncia a su plaza en el stand es una oportunidad para que otro pueda llenar ese hueco con su barril y así dar a conocer a más gente su querida cerveza.   
 
 Punto de partida
@@ -35,6 +36,7 @@ Punto de partida
 -   La organización dispone de una página web que puede ser consumida desde un dispositivo smart phone.
 -   Todo asistente al evento debe haberse registrado previamente (también los fabricantes), esta información la tenemos disponible en un conjunto de datos. Al registrarse, el usuario recibe unas claves de acceso.   
 -   Disponen de una aplicación en las máquinas registradoras de cada stand que se encarga de registrar cada compra (usuario, modelo cerveza, fecha).
+
  
 ¿Qué nos pide la organización?
 ------------------------------
