@@ -1,0 +1,9 @@
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\bin\Debug\NoPartyNoBeer.Common.dll
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\bin\Debug\NoPartyNoBeer.Common.pdb
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\bin\Debug\RedDog.Search.dll
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\obj\Debug\NoPartyNoBeer.Common.dll
+C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoPartyNoBeer.Common\obj\Debug\NoPartyNoBeer.Common.pdb

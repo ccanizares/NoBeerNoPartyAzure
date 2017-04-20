@@ -1,0 +1,61 @@
+﻿
+<div class="view-container">
+    <form>
+        <input type="text" id="searchField" placeholder="search info" />
+        <button clasS="btb btn-default" data-bind='click: search' type="submit">
+            Search
+        </button>
+        <br />
+        <div data-bind='simpleGrid: results'> </div>
+
+        <br />
+
+        @*<button data-bind='click: sortByName'>
+            Sort by name
+        </button>
+        
+        <button data-bind='click: jumpToFirstPage, enable: gridViewModel.currentPageIndex'>
+            Jump to first page
+        </button>*@
+    </form>
+</div>
+@section scripts
+{
+<script>
+    var searchIndexUrl = "https://" + "@ViewBag.SearchResourceName" + ".search.windows.net/indexes/beer/";
+    var apiKey = "@ViewBag.SearchKey";
+    var apiVersion = "2016-09-01";
+    var viewModel = new SearchViewModel();
+
+    function search() {
+        var options = { "api-version": apiVersion, "api-key": apiKey, search: $("#searchField").val(), $count: true, $top: 100 };
+
+        $.getJSON(searchIndexUrl + "docs", options, function (data) {
+            viewModel.results.data(data.value);
+        });
+    }
+
+    function SearchViewModel(){
+        this.totalHits = ko.observable();
+        this.results = new ko.simpleGrid.viewModel({
+            data: ko.observableArray([]),
+            columns: [
+                { headerText: "Beer", rowText: "beerName" },
+                { headerText: "Brewery", rowText: "brewery" },
+                { headerText: "Price", rowText: function (item) { return "$" + item.price.toFixed(2) } },
+                { headerText: "Type", rowText: "beerType" },
+                { headerText: "Rate", rowText: "rate" },
+                { headerText: "Stand", rowText: "stand" },
+                { headerText: "Avaible Liters", rowText: "quantityPercen" }
+            ],
+            pageSize: 25
+        });
+    }
+
+    $(function () {
+        ko.applyBindings(viewModel);
+        $.ajaxSetup({ traditional: true });
+        $("#searchField").focus();
+    })
+</script>
+}

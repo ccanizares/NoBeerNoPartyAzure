@@ -1,0 +1,101 @@
+﻿Id,BreweryId,Price,Name,BeerType
+bc2cb21b-1f4a-490a-b1e8-dd451ed84dfa,520b67fe-c627-46e3-8280-7fe610e632a2,7,A Marca Bavaria,3
+6468c68d-5ea3-482b-8c98-077d24ae1fec,255337de-1c37-42d9-b448-b16506e46da8,7,Aass Bock Beer,3
+d223bb5b-559c-4cd9-b430-898a1c3ddc85,26250394-a5e8-4ac5-a25b-adb6ac30df6d,7,Aass Genuine Pilsner,13
+edf46525-7d7c-4bd9-ad4d-44a03217246a,b3a291db-4883-490e-a783-4106dc683d56,7,Aass Juleøl Premium,12
+ffacdb12-b272-4448-8b5b-56933dc39cd2,4971d342-d949-41eb-aa74-02314376a3f3,7,Aass Lauritz Pilsner,13
+3072501a-0dcb-40ba-839a-04e00b4e2f67,f46b909d-08ac-4bc1-a696-4fddc675ef77,7,Abita Abbey Ale,1
+14d9ac02-88b6-4be9-8d39-8535238cb30c,9b768d5a-ba31-4532-8ff6-375f9e2f2159,7,Abita Amber,1
+e2592774-13ed-4584-ac19-2f9696e97efc,743832d3-4161-41b9-9e5b-bf82e17f14f0,7,Abita Fleur-de-Lis Restoration Ale,12
+39e010a9-f794-47db-a134-a2e66fd235c2,d43c177a-9a65-47c5-a270-309bbbc63d28,7,Abita Jockamo IPA,9
+4115ac0d-1d1a-40cf-8744-aa8151c2953c,9ff00a5c-9e24-49fd-beb0-ef8f88c536d7,7,Abita Light,10
+37e63d31-cbbc-4e6f-adec-9999884e5e21,a68e2606-90e6-428f-bba3-f4e290cf8b26,7,Abita Turbodog,16
+0ef52db4-8481-4afa-8155-3c4d0e66ff72,7cf736c8-b791-44fb-acb9-dc92fdfc3cfd,7,Abita Wheat,16
+bfe20953-65b6-4a05-a573-4dd7f73e89c9,7ae9d69b-f136-4c3f-a42f-9ded79e5d559,7,Acme California IPA,9
+4e80412d-f45d-4247-b386-6dfc8e1dc4fc,5191cbde-9b2d-4edd-91f8-d0358d726d51,7,Acme California Pale Ale,9
+d28033c1-202a-41ab-9dd2-2287593ff612,fc174e31-69da-4593-be4f-29757866f636,7,Aecht Schlenkerla Rauchbier Märzen,15
+9b0d202d-8169-40d7-8385-487fc00940e3,1dba6535-d571-4ca4-949a-511c33e3c9e1,7,Afanasy Dark Beer,3
+42f9aec3-cd56-4810-9800-f932c44e5d91,8f5f1718-f4a4-4dbc-be08-e11be4ba13e6,7,Affligem Blonde,2
+cc4362d1-1fe9-4a90-acae-839bc80493ff,7644785d-69f5-4dac-8206-0dd943a1fd2d,7,Bam Bière Farmhouse Ale,6
+54532193-2fa3-46e5-823e-ef44c9e877e2,49deb245-437f-4cfa-a645-983b79854bec,7,Bar Harbor Real Ale,6
+3eb2a562-8f66-4ea7-961f-17f51b54830a,14178df3-bb93-49e9-bf9f-104cabdb83d1,7,Baron Premium Czech Dark Lager,15
+acae0eed-d798-43f6-adb7-4c2c40d6e128,85b9c390-ad98-49bb-b8e4-4beac72a219c,1,Barons Black Wattle Superior,15
+79525d3e-a5c2-4267-b250-f21d7bdc3e8b,7fdde7b0-5dfb-441c-92d1-a27d078a7746,1,Barons Lager,7
+a3b35a6e-063c-4805-bee6-6d782cbd8958,c3e002a6-8b60-4a62-9dee-056eceb1582d,1,Bass Ale,7
+a2da9e91-bc7b-42bc-93b6-3e7425b54056,4dfe5546-2e17-4a91-a072-bc42d1e0ccb2,1,Bass Country Chase Ale,8
+ce7e745f-c992-4dd2-b99f-a1825359ad4a,fc383e53-d3ca-4c3a-a926-4c0c23cd4ffb,1,Bayhawk California Pale Ale,9
+bcb2ab2a-77ab-4ae8-94f5-46345335652c,d936f510-44fb-4527-851c-8ff538c1517d,1,Bayhawk Chocolate Porter,3
+7614f5ba-d68c-422a-886d-9c3c7efa1ad5,d0bb7124-5ee1-4bfc-b4a5-9ad53020945b,1,Beamish Red Irish Ale,14
+3c37208e-3348-48ab-aa0f-e5e384458667,83225498-ef82-4096-9cae-d0ac35288f74,1,Celis Pale Ale,9
+2e13ec5a-6776-422b-887b-33cca2304e0b,ca0013ef-9563-4966-adea-04076a81ed94,1,Celis Pale Bock,15
+e845f1b8-0ff2-4c07-8024-f82222249689,dbeacb8c-f60e-4891-8a03-82dc9e16af08,1,Celis Raspberry Wheat,16
+ac6e24ae-924b-4083-bb51-3cdba1844e4d,00a659ae-6f0e-4bf7-ab42-341876ce3a4d,1,Celis White,11
+94324713-439a-4ce4-86b9-38a46dd88b8d,40774db8-9e7d-4614-96a6-ca6e694bd4e0,1,Central Waters Bourbon Barrel Cherry Stout,6
+9d298d7a-20c1-414e-9afa-d09af83538be,8e6c9ade-a510-46c6-9dd7-d0abde67ef87,1,Central Waters Illumination Double IPA,9
+2857df45-fa14-4063-b4c3-d22c777fe9b3,4c8afe85-9169-4def-9021-be63548d77c0,1,Central Waters Satin Solstice Imperial Stout,3
+f68ac0dd-30bb-4473-8d80-a21bbc024624,50bc341a-cba0-404b-8236-bf72b61592cb,1,Chamberlain Pale Ale,9
+d58e246e-00fb-4de2-95ad-69858c7b97d0,d01ea7dd-21e4-4c1c-827f-51e834f56c94,1,Chambly Noire,12
+72d13d6c-f0bd-481c-bfd8-e1762f699156,f5751448-39d6-4d20-818d-e83226544bdf,1,Chapeau Banana Lambic,7
+31be2797-efde-4a6f-bf3d-c56568c88cdf,1c137dbb-a028-4fef-9b75-42e5963c75db,1,Chapeau Fraises Lambic,7
+c0317b8f-fa37-4cb4-a3f5-5a8d20952c7e,6b107c07-5913-4e35-9a11-39786a1b9319,1,Christian Moerlein Select Lager,8
+dc15e503-3360-4698-82e8-f5864e24f41e,07234d33-edf8-4b7b-9e92-4619e0fe0f1d,1,Clausthaler,4
+2491193b-75cc-4abb-9d5d-aad61c87703a,75ece425-6037-4d58-aa0c-22ee67f69815,1,Coast Kölsch,1
+6627e765-2e6a-419e-a574-b08f79ad5b3d,2c6491f5-a35c-45aa-a071-2de5488bfe07,1,Coastal Fog Pale Ale,1
+b37e5706-f299-4c5e-a013-5c1ed5ed7c72,b081e645-f992-48cb-8e1a-c20e7fc6e09d,1,Colônia Malzbier,1
+0a31e9d3-a369-41ea-93fa-ad970e0367bb,8e7bc308-c252-41dc-a371-c18944ff8b54,1,Coopers Best Extra Stout,15
+ed9abbec-d568-4de0-a6c2-98de5d2b11ad,4cc9e29f-714e-4206-8bbf-48bbbd1896a8,9,Coopers Black Crow Ale,3
+8ac79162-9bb3-4e88-92fd-4293155481b2,f7703558-c5ac-4c60-a4d3-0c3eac58951d,9,Coopers Original Pale Ale,9
+48e5214e-39d0-42c1-8198-83063b9293e1,f7f20bf6-a691-4560-90a9-07a267dd266a,9,Coopers Sparkling Ale,9
+4e241434-843c-46c0-8c65-49aacaf8cedd,b32b87b3-9eff-49e3-8ba5-31327969fc05,9,Coors Light,10
+206ab495-f64c-4c32-b35c-d2e9de1a88dd,219c1fd6-5e31-4d4b-bbae-daf90811f17a,9,Eastside Dark,15
+65606b1d-53a6-46ac-a835-7fbe2fea238c,f50fa900-e489-4a6e-bcba-69c48cf1d649,9,Edelweiss (Weissbier-Hefetrub),2
+66736519-0dd4-4386-8e09-ddea09c5ed28,ce3a4374-d32c-41d6-bdb2-181b77bef83d,9,Edison Light Beer,10
+ab0ad1b2-baf2-436b-a363-72e2035b66d1,4cfc5e8d-13e6-407a-a906-36b928d2f53e,9,Eel River Porter,12
+4c685822-a95d-46dc-a425-53d72523223a,73c60e1b-53e7-4213-836a-e041f2419a9c,9,Efes Pilsen,1
+89ffec35-a1f5-4dec-bfd7-8429d92de2b8,abdb98a7-553d-4fae-88b7-eb78f7f4605f,9,Einbecker Mai-Ur-Bock,6
+40080d7d-883c-4e9b-b0e9-b23d39744626,8de9d735-5687-42ca-93fd-18b8b6b5ac3b,9,EKU Pils,8
+c3b1d16a-74b4-4e98-8165-034c8e322850,26949365-bbfe-4312-9cbc-c84e05998453,9,Elephant Red,14
+7925d066-1288-434a-a12a-4e7507a26443,f3aa8561-6f00-4f57-b6c0-2c8a6e0a8484,9,Eliot Ness,9
+97cde3ad-0c59-4877-ad96-987526456f2e,28196b87-249a-4bba-a1e2-818799dad9a9,9,Engel Gold,11
+84319af0-4d71-4c47-8411-e429f379cdd2,bb176629-99e6-4b7d-8881-7dfbb71fd849,3,Entire Butt English Porter,6
+1aa199a7-aef8-47a4-a17c-3410ccd28aeb,ba6d0a78-edd3-4bdf-b0fb-ad03008f7884,3,Erdinger Pikantus Dunkler Weizenbock,7
+e8ad9df9-2a7b-42de-9320-a3ac5b17859e,0aa58f0c-776b-4b80-8290-a1da9e06083f,3,Erdinger Weißbier Dunkel,9
+b546c34c-730c-46db-b6c7-0c9348985a29,f925087d-9294-43aa-8e1b-8c879f859c84,3,Jamaica Red Ale,14
+a69c3946-8e08-4fde-97df-f62f99ba5dd7,e483be19-8300-495a-8fbb-d2e26adf5128,3,Jamaica Sunset India Pale Ale,9
+03e5bb55-7569-4495-80a7-e3601eb24f01,f009bb0a-d542-44d6-b68c-120f6f978249,3,James Boag's Premium Lager,11
+86eef33e-e85a-48a8-95b3-921cf6502b86,052578ba-1fb3-4fcf-aa11-c1bd17f631f9,3,James Squire Australian Best Ale,9
+86607cd3-bc77-4738-8586-f22e5837b280,be7ae1ce-ea01-4322-8b4d-174ca58c8c78,3,Jasne Zamkowe,7
+02bd70ed-2d38-4de4-a8fb-beeac31a9ebf,e33c80c2-a801-4cbb-940f-f52d5ce32eb0,3,Jenlain Blonde French Golden Ale,7
+30986ba1-03ac-47e9-8d2c-7d4e72283f36,cb718c03-91e1-468b-8959-4ba6ff4306cf,3,Jersey Harvest Ale,10
+33197374-451f-4daf-b0c5-9a8a3a7c27dd,664e8990-4f21-4453-a57f-154a5b0921f5,3,La Chouffe,8
+59b09d39-f850-40c9-88eb-7ba15f77e883,7acc019e-dec4-4419-a9f0-98506d89e1a4,3,La Rossa,14
+93ff4c08-b94c-4bff-b0db-70d0c0cb69a9,09d1cd9c-78bc-407c-91b6-af3b716f1792,3,Labatt Blue Light,10
+1cc6fef5-799d-4e6b-89a8-ad782ec2dc5e,885bcd84-be21-41ba-9cbd-49a891e07217,3,Labatt Canadian Ale,9
+5dce6fe0-db36-4b5f-abb1-5a9224b3b3a9,316ec160-ca42-42aa-a9db-40a4f3074e88,3,Labatt Genuine Honey,8
+1fd203c6-3441-4cc5-95a0-e620eec16385,6681993f-26c5-47b4-b303-4908cf359ee6,6,Labatt Ice,2
+5c71196e-5ea5-41c3-8447-635fa860925e,071a227b-2bda-48c0-9512-0389943b60c4,6,Labatt Maximum Ice,2
+c50285ff-e8d3-4efa-be1c-56a48ffddbdc,adbb8e84-7ffe-4d1d-b1fb-ec959acfcd58,6,Labatt Wildcat,16
+f8df719a-5ebf-48e4-9770-d281dc1a1cbb,8c3c706a-482e-441d-a0e1-7ff4a81020a9,6,Lagunitas Brown Shugga,15
+2b38bc8f-3974-461a-91fc-38b07f46d426,cdd2f225-158c-4c6e-8dab-bfc16267120f,6,Lagunitas Censored Rich Copper Ale,8
+b49e6d78-e1d0-4bcc-bc21-5f26fd46818e,dcd84f4f-d407-4a94-b4c2-204f0c44aa11,6,Lagunitas Freak Out Ale,6
+7d8c4496-dc3d-4d12-b33b-f254c149449c,350cd48a-66be-4110-ab67-db4b8871407c,6,Lagunitas Hairy Eyeball Ale,11
+cecba3ab-9993-4bf9-b840-0c395979aa50,b1bfec8e-2192-4777-bd2d-53928a685cf6,6,Lagunitas Imperial Red Ale,14
+a73df4ee-5283-4ff1-9a6d-b99709c5de0b,78cd1657-f71c-4e06-9d4c-7db4689ea99f,6,Lagunitas India Pale Ale,9
+7ceac7ba-d2b1-452e-acdd-c626c0dbc578,ace6831a-8829-49f7-930c-0abf73d3fb00,6,Lagunitas Kill Ugly Radio,5
+636e0952-b667-421f-a539-38a572c0a713,0ae7c06a-b609-4869-9b09-92a27e451c16,6,Lagunitas Lucky 13
+32093490-ec77-4408-a2d7-4fd851f85622,1e534b6e-0749-424d-bfd6-a5ee7b91cc7c,6,Lagunitas Maximus,6
+bb4256a2-827b-4aad-a374-8cea2e81720d,6a88db7d-9c55-439d-95f0-165ffecbfd02,6,Lake Placid Frostbite Ale,14
+310a6d77-7253-4a95-b7c6-532c90db54ad,844814b1-13ac-4f67-882a-f4b89c4cc4cd,6,Lakefront Bridge Burner,6
+f067d258-1546-45f5-9774-f2d04763e102,ead59779-c8f8-4fa3-bfaa-6028218982de,5,Lakefront IPA,9
+7d4839ae-375d-4f4d-93df-fa8eb9e2aaab,3f6a8bc4-645f-4ede-8ac6-922495328b93,5,Old Engine Oil Special Reserve,12
+c417378d-06dd-445b-904c-d5cc5465b122,c9eb24d4-b50a-43ba-aefc-5357e72058f9,5,Old Growler Porter,14
+eb3de968-058b-4d84-9baf-857323d50dad,a5b60a9d-9715-4339-88db-9592f61dae6a,5,Old Izaak Traditional English Ale,15
+1304c45b-461a-4ca2-9d6d-b7d7dbda3d1a,06eea6dc-2b24-4b74-9e35-e9edaf982758,5,Old Jock Ale,6
+64cc381a-6336-42b5-9386-622df415ca72,708b1b97-0df8-42d3-a68f-44de395fd684,5,Old Milwaukee,1
+181e3ba3-1b5f-4e1b-86b9-5350e43a2db5,e7272281-c2de-4971-bf44-1e69334a89a4,5,Old Milwaukee Light,10
+576c045e-4451-4e67-985a-5be41b6323f5,0e3ef08c-0053-4ed5-88ab-8a266d7e92e6,5,Old Milwaukee N/A,1
+df299885-5905-41d0-9e32-214b57f4d6db,d8ab78ec-e5cd-4f31-8a7d-3a74d8a5de51,5,Old No. 38 Stout,7
+fc852985-a630-46bd-863a-b837f21df0c8,7460adea-f4bb-493f-b421-a48ea1b2cdfa,5,Old Peculier Ale,12
+d4c21b02-b9b1-4db0-960c-3e98a4555d16,1abc3cc7-73f8-49ce-b24c-132f3623629d,5,River Rock Ale,9
+cc4ffd35-775a-43be-aa95-2de97de2782f,5a2c19dc-b960-4fc1-afc1-ca98e9add6d3,8,River Rock Brown Ale,3
+fa0dff51-4e14-4ee5-b789-cda9e64ed94b,c4ef58fb-e2bd-428d-a33f-8f0893bb1955,8,River Rock Cream Ale,4
