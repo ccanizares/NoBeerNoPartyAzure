@@ -110,6 +110,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\webSite-bdkxnzfm7d32e - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\webSite-bdkxnzfm7d32e - Web Deploy.pubxml" />
     <None Include="Properties\webjob-publish-settings.json" />
   </ItemGroup>

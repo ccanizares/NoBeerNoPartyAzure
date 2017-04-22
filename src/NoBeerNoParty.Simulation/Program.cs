@@ -72,11 +72,11 @@ namespace NoBeerNoParty.Simulation
                 .WithStringField("id", f => f.IsKey().IsRetrievable())
                 .WithStringField("beerName", f => f.IsRetrievable().IsSearchable())
                 .WithStringField("brewery", f => f.IsRetrievable().IsSearchable().IsFilterable())
-                .WithStringField("beerType", f=> f.IsRetrievable().IsSearchable())
-                .WithDoubleField("rate", f => f.IsRetrievable().IsFilterable())
-                .WithStringField("stand", f => f.IsRetrievable())
+                .WithStringField("beerType", f=> f.IsRetrievable().IsSearchable().IsFacetable())
+                .WithDoubleField("rate", f => f.IsRetrievable().IsFilterable().IsSortable())
+                .WithStringField("stand", f => f.IsRetrievable().IsFilterable())
                 .WithDoubleField("price", f => f.IsRetrievable())
-                .WithDoubleField("quantityPercen", f => f.IsRetrievable().IsFilterable());
+                .WithDoubleField("quantityPercen", f => f.IsRetrievable().IsFilterable().IsSortable());
 
             var response = await searchSvc.CreateIndexAsync(index);
             if (response.Error != null)
@@ -170,11 +170,13 @@ namespace NoBeerNoParty.Simulation
             var userClient = new DocumentDbClient<User>(DbEndPointUrl, DbAccessKey, DbName);
             var beerClient = new DocumentDbClient<Beer>(DbEndPointUrl, DbAccessKey, DbName);
             var breweryClient = new DocumentDbClient<Brewery>(DbEndPointUrl, DbAccessKey, DbName);
+            var dispenserClient = new DocumentDbClient<Dispenser>(DbEndPointUrl, DbAccessKey, DbName);
 
             //Read Csv
             var users = new CsvStaticReferenceReader<User>(new UsersCsvMapper()).Read("Csv\\Users.csv");
             var beers = new CsvStaticReferenceReader<Beer>(new BeersCsvMapper()).Read("Csv\\Beers.csv");
             var breweries = new CsvStaticReferenceReader<Brewery>(new BreweriesCsvMapper()).Read("Csv\\Breweries.csv");
+            var dispensers = new CsvStaticReferenceReader<Dispenser>(new DispenserCsvMapper()).Read("Csv\\Dispensers.csv");
 
             //Write DocumentDb
             foreach (var user in users)
@@ -190,6 +192,11 @@ namespace NoBeerNoParty.Simulation
             foreach (var brewery in breweries)
             {
                 await breweryClient.AddAsync(brewery);
+            }
+
+            foreach (var dispenser in dispensers)
+            {
+                await dispenserClient.AddAsync(dispenser);
             }
 
             Console.Write("Seed Finished");

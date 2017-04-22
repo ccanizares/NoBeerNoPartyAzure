@@ -2,40 +2,36 @@
 <div class="view-container">
     <form>
         <input type="text" id="searchField" placeholder="search info" />
-        <button clasS="btb btn-default" data-bind='click: search' type="submit">
+        <button clasS="btn btn-default" data-bind='click: search' type="submit">
             Search
         </button>
         <br />
         <div data-bind='simpleGrid: results'> </div>
-
-        <br />
-
-        @*<button data-bind='click: sortByName'>
-            Sort by name
-        </button>
-        
-        <button data-bind='click: jumpToFirstPage, enable: gridViewModel.currentPageIndex'>
-            Jump to first page
-        </button>*@
     </form>
 </div>
 @section scripts
 {
 <script>
-    var searchIndexUrl = "https://" + "@ViewBag.SearchResourceName" + ".search.windows.net/indexes/beer/";
     var apiKey = "@ViewBag.SearchKey";
     var apiVersion = "2016-09-01";
+    var searchIndexUrl = "https://" + "@ViewBag.SearchResourceName" + ".search.windows.net/indexes/beer/docs/search?api-version=" + apiVersion;
     var viewModel = new SearchViewModel();
 
     function search() {
-        var options = { "api-version": apiVersion, "api-key": apiKey, search: $("#searchField").val(), $count: true, $top: 100 };
 
-        $.getJSON(searchIndexUrl + "docs", options, function (data) {
-            viewModel.results.data(data.value);
+        var client = AzureSearch({
+            url: "https://" + "@ViewBag.SearchResourceName" + ".search.windows.net",
+            key: apiKey, 
+            version: apiVersion
+        });
+        //'beerType'
+        client.search('beer', { search: $("#searchField").val(), top: 100, facets:['beerType'], orderby:'rate desc, quantityPercen desc' }, function (err, results) {
+            // optional error, or an array of matching results 
+            viewModel.results.data(results);
         });
     }
 
-    function SearchViewModel(){
+    function SearchViewModel() {
         this.totalHits = ko.observable();
         this.results = new ko.simpleGrid.viewModel({
             data: ko.observableArray([]),

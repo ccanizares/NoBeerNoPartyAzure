@@ -7,6 +7,7 @@
     <title>@ViewData["Title"] - NoBeerNoParty.Web</title>
     <script src="~/lib/knockout-latest.js"></script>
     <script src="~/lib/knockout.simpleGrid.3.0.js"></script>
+    <script src="~/lib/azure-search.min.js"></script>
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -20,24 +21,6 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">NoBeerNoParty.Web</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Search" asp-action="Index">Search</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div class="container body-content">
         @RenderBody()
         <hr />

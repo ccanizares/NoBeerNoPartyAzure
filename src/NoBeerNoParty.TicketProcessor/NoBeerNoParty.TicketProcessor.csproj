@@ -128,6 +128,7 @@
     <None Include="Properties\PublishProfiles\webSite-bdkxnzfm7d32e - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\webSite-bdkxnzfm7d32e - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\webSite-bdkxnzfm7d32e - Web Deploy %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\webSite-bdkxnzfm7d32e - Web Deploy %284%29.pubxml" />
     <None Include="Properties\PublishProfiles\webSite-bdkxnzfm7d32e - Web Deploy.pubxml" />
     <None Include="Properties\webjob-publish-settings.json" />
   </ItemGroup>

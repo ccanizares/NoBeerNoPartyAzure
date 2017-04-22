@@ -1,9 +1,0 @@
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\bin\Release\netcoreapp1.0\NoBeerNoParty.Web.deps.json
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\bin\Release\netcoreapp1.0\NoBeerNoParty.Web.runtimeconfig.json
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\bin\Release\netcoreapp1.0\NoBeerNoParty.Web.runtimeconfig.dev.json
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\bin\Release\netcoreapp1.0\NoBeerNoParty.Web.dll
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\bin\Release\netcoreapp1.0\NoBeerNoParty.Web.pdb
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\obj\Release\netcoreapp1.0\NoBeerNoParty.Web.csprojResolveAssemblyReference.cache
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\obj\Release\netcoreapp1.0\NoBeerNoParty.Web.AssemblyInfo.cs
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\obj\Release\netcoreapp1.0\NoBeerNoParty.Web.dll
-C:\Users\Carlos\Source\Repos\NoBeerNoParty\src\NoBeerNoParty.Web\obj\Release\netcoreapp1.0\NoBeerNoParty.Web.pdb

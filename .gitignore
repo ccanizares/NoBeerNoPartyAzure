@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/packages
+/packages
+/src/NoBeerNoParty.TicketProcessor/Properties/PublishProfiles

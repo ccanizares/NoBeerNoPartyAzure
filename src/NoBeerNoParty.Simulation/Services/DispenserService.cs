@@ -16,12 +16,13 @@ namespace NoBeerNoParty.Simulation.Services
 
         public void RefillIfNeeded(List<Dispenser> dispensers, Ticket ticket)
         {
-            var dispenser = dispensers.FirstOrDefault(x => x.ExternalId == ticket.DispenserId);
-            if (dispenser.AvaiableLiter.Equals(0))
-            {
-                dispenser.AvaiableLPercen = 100;
-                dispenser.AvaiableLiter = new Dispenser().AvaiableLiter;
-            }
+            dispensers.RemoveAll(x => x.ExternalId == ticket.DispenserId);
+            //TODO: implement brewery stock logic for future scenarios.
+            //if (dispenser.AvaiableLiter.Equals(0))
+            //{
+            //    dispenser.AvaiableLPercen = 100;
+            //    dispenser.AvaiableLiter = new Dispenser().AvaiableLiter;
+            //}
         }
     }
 }

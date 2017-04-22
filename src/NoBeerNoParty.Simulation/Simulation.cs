@@ -73,7 +73,6 @@ namespace NoBeerNoParty.Simulation.Services
                             {
                                 Console.WriteLine($"{DateTime.Now} > Exception: {exception.Message}");
                             }
-                         
                         }
                         else
                         {
